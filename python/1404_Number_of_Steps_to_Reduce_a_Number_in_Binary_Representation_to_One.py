@@ -1,6 +1,7 @@
-# https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/submissions/1271676308?envType=daily-question&envId=2024-05-29
+# 1404. Number of Steps to Reduce a Number in Binary Representation to One
+# https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/
+# Difficulty: Medium | Language: python | Runtime: 16 ms | Memory: 11.6 MB
 
-# Number of Steps to Reduce a Number in Binary Representation to One
 class Solution(object):
     def numSteps(self, s):
         """
@@ -8,10 +9,12 @@ class Solution(object):
         :rtype: int
         """
         num = 0
+        #two = 1
         for i in range(len(s)):
             j = len(s) - i - 1
             if s[j] == "1":
                 num += 2**i
+            #two = two * 2
         
         steps = 0
         while num != 1:

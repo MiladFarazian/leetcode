@@ -1,3 +1,7 @@
+# 7. Reverse Integer
+# https://leetcode.com/problems/reverse-integer/
+# Difficulty: Medium | Language: python | Runtime: 20 ms | Memory: 11.7 MB
+
 class Solution(object):
     def reverse(self, x):
         """
