@@ -1,10 +1,10 @@
 # LeetCode Solutions
 
-Solutions to **60** LeetCode problems, organized by language. Difficulty breakdown: 49 Easy · 10 Medium · 1 Hard.
+Solutions to **64** LeetCode problems, organized by language. Difficulty breakdown: 50 Easy · 12 Medium · 2 Hard.
 
 | Language | Solutions |
 |----------|-----------|
-| [Python](python/) | 35 |
+| [Python](python/) | 39 |
 | [SQL](sql/) | 13 |
 | [Pandas](pandas/) | 10 |
 | [C++](cpp/) | 2 |
@@ -16,8 +16,10 @@ Solutions to **60** LeetCode problems, organized by language. Difficulty breakdo
 |---|---------|------------|----------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Python](python/1_Two_Sum.py) |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [Python](python/2_Add_Two_Numbers.py) |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Python](python/3_Longest_Substring_Without_Repeating_Characters.py) |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | [Python](python/7_Reverse_Integer.py) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [Python](python/9_Palindrome_Number.py) |
+| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | [Python](python/12_Integer_to_Roman.py) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Python](python/13_Roman_to_Integer.py) |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [Python](python/15_3Sum.py) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Python](python/20_Valid_Parentheses.py) |
@@ -28,6 +30,7 @@ Solutions to **60** LeetCode problems, organized by language. Difficulty breakdo
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | [Python](python/35_Search_Insert_Position.py) |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Easy | [Python](python/58_Length_of_Last_Word.py) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | Easy | [Python](python/66_Plus_One.py) |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [Python](python/67_Add_Binary.py) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | [Python](python/69_Sqrtx.py) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | [Python](python/83_Remove_Duplicates_from_Sorted_List.py) |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | [Python](python/88_Merge_Sorted_Array.py) |
@@ -41,6 +44,7 @@ Solutions to **60** LeetCode problems, organized by language. Difficulty breakdo
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [Python](python/191_Number_of_1_Bits.py) |
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | Easy | [SQL](sql/197_Rising_Temperature.sql) |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [Python](python/215_Kth_Largest_Element_in_an_Array.py) |
+| 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | Hard | [Python](python/273_Integer_to_English_Words.py) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [Python](python/283_Move_Zeroes.py) |
 | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | Hard | [Python](python/312_Burst_Balloons.py) |
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | [Python](python/345_Reverse_Vowels_of_a_String.py) |
