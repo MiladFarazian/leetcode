@@ -71,7 +71,7 @@ You have a head start here. Goal: turn familiarity into pattern fluency.
 ### Hashing
 - [x] 1. Two Sum *(solved — re-solve cold as a warm-up)*
 - [ ] 217. Contains Duplicate
-- [ ] 242. Valid Anagram
+- [x] 242. Valid Anagram *(solved 2026-07-09 — first curriculum problem! Hand-rolled tally; revisit with Counter)*
 - [ ] 49. Group Anagrams
 - [ ] 347. Top K Frequent Elements
 - [ ] 128. Longest Consecutive Sequence
@@ -242,6 +242,7 @@ When Milad starts a session, Claude should drive, in this order:
 2. **Recommend the next new problem** from the current phase, matched to the learning goal — don't wait to be asked. One problem, with a one-line reason ("this one teaches the monotonic stack sub-pattern").
 3. **Teach in coach mode:** Milad attempts first (25–30 min); Claude gives escalating hints (pattern trigger → approach nudge → pseudocode) before ever showing code. Full solutions only when asked or after a real attempt.
 4. **Close the loop:** after each solve, name the pattern out loud, update the checkbox here, and add solution-assisted problems to the re-solve queue with today's date.
+   Then report back to azadi: update `../azadi/coaching/leetcode-memory.md` (refresh NOW, prepend a LOG entry) so /coach and /interview see real DSA progress, not just solve counts.
 5. **Track phase exits.** When the current phase's exit-test problems pass cold, celebrate it and open the next phase.
 
 Current phase: **Phase 1 — Arrays, Hashing, Two Pointers, Sliding Window** (+ Phase 0 foundations alongside).

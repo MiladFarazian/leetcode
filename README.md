@@ -1,10 +1,10 @@
 # LeetCode Solutions
 
-Solutions to **65** LeetCode problems, organized by language. Difficulty breakdown: 51 Easy · 12 Medium · 2 Hard.
+Solutions to **66** LeetCode problems, organized by language. Difficulty breakdown: 51 Easy · 13 Medium · 2 Hard.
 
 | Language | Solutions |
 |----------|-----------|
-| [Python](python/) | 40 |
+| [Python](python/) | 41 |
 | [SQL](sql/) | 13 |
 | [Pandas](pandas/) | 10 |
 | [C++](cpp/) | 2 |
@@ -28,6 +28,7 @@ Solutions to **65** LeetCode problems, organized by language. Difficulty breakdo
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | [Python](python/27_Remove_Element.py) |
 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Easy | [Python](python/28_Find_the_Index_of_the_First_Occurrence_in_a_String.py) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | [Python](python/35_Search_Insert_Position.py) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [Python](python/49_Group_Anagrams.py) |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Easy | [Python](python/58_Length_of_Last_Word.py) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | Easy | [Python](python/66_Plus_One.py) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [Python](python/67_Add_Binary.py) |
