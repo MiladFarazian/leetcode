@@ -70,9 +70,9 @@ You have a head start here. Goal: turn familiarity into pattern fluency.
 
 ### Hashing
 - [x] 1. Two Sum *(solved — re-solve cold as a warm-up)*
-- [ ] 217. Contains Duplicate
+- [x] 217. Contains Duplicate *(solved 2026-07-10 — clean first try, early return included)*
 - [x] 242. Valid Anagram *(solved 2026-07-09 — first curriculum problem! Hand-rolled tally; revisit with Counter)*
-- [ ] 49. Group Anagrams
+- [x] 49. Group Anagrams *(solved 2026-07-10 — first Medium! Fingerprint-as-key; hints only, own code)*
 - [ ] 347. Top K Frequent Elements
 - [ ] 128. Longest Consecutive Sequence
 
@@ -227,7 +227,7 @@ Add every problem you needed the solution for. Re-solve 2 days later, then 2 wee
 
 | Problem | First seen | Re-solve #1 | Re-solve #2 |
 |---|---|---|---|
-| 3. Longest Substring Without Repeating | 2026-07-08 | | |
+| 3. Longest Substring Without Repeating | 2026-07-08 | 2026-07-10 (scaffolded — stuck on the check + jump; redo ~07-12) | |
 | 67. Add Binary | 2026-07-08 | | |
 | 12. Integer to Roman | 2026-07-09 | | |
 | 273. Integer to English Words (helper fn) | 2026-07-09 | | |

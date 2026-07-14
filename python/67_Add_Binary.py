@@ -1,6 +1,6 @@
 # 67. Add Binary
 # https://leetcode.com/problems/add-binary/
-# Difficulty: Easy | Language: python3 | Runtime: 5 ms | Memory: 19.5 MB
+# Difficulty: Easy | Language: python3 | Runtime: 0 ms | Memory: 19.1 MB
 
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
@@ -8,19 +8,33 @@ class Solution:
         #if both are "1", make rightmost element "0" and add 1 to next digit
         #if one is "0" and one is one "1", leave as 1
         #if both are "0", leave as zero
-        i, j = len(a) - 1, len(b) - 1   # fingers on the rightmost digit of each
+
+        i = len(a) - 1
+        j = len(b) - 1
         carry = 0
         result = []
 
         while i >= 0 or j >= 0 or carry:
-            total = carry
+            k = carry
             if i >= 0:
-                total += int(a[i])
-                i -= 1
+                k += int(a[i])
             if j >= 0:
-                total += int(b[j])
-                j -= 1
-            result.append(str(total % 2))
-            carry = total // 2
+                k += int(b[j])
 
-        return ''.join(reversed(result))
+            if k == 0:
+                result.append("0")
+                carry = 0
+            elif k == 1:
+                result.append("1")
+                carry = 0
+            elif k == 2:
+                result.append("0")
+                carry = 1
+            else:
+                result.append("1")
+                carry = 1
+        
+            i = i - 1
+            j = j - 1
+
+        return "".join(reversed(result))

@@ -1,10 +1,10 @@
 # LeetCode Solutions
 
-Solutions to **66** LeetCode problems, organized by language. Difficulty breakdown: 51 Easy · 13 Medium · 2 Hard.
+Solutions to **67** LeetCode problems, organized by language. Difficulty breakdown: 52 Easy · 13 Medium · 2 Hard.
 
 | Language | Solutions |
 |----------|-----------|
-| [Python](python/) | 41 |
+| [Python](python/) | 42 |
 | [SQL](sql/) | 13 |
 | [Pandas](pandas/) | 10 |
 | [C++](cpp/) | 2 |
@@ -45,6 +45,7 @@ Solutions to **66** LeetCode problems, organized by language. Difficulty breakdo
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [Python](python/191_Number_of_1_Bits.py) |
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | Easy | [SQL](sql/197_Rising_Temperature.sql) |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [Python](python/215_Kth_Largest_Element_in_an_Array.py) |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Python](python/217_Contains_Duplicate.py) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Python](python/242_Valid_Anagram.py) |
 | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | Hard | [Python](python/273_Integer_to_English_Words.py) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [Python](python/283_Move_Zeroes.py) |
